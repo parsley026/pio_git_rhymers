@@ -6,6 +6,11 @@ public class DefaultCountingOutRhymer {
     private static final int TOTAL = -1;
 
     private final int[] numbers = new int[ARRAY_SIZE];
+
+    public int getTotal() {
+        return total;
+    }
+
     private int total = TOTAL;
 
     private static final int FULL = 11;
