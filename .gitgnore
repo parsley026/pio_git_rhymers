@@ -2,4 +2,4 @@
 *.init
 *.bin
 .idea
-/target
+
