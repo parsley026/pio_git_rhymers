@@ -26,6 +26,7 @@ class RhymersDemo {
         for (int i = 1; i < ARRAY_SIZE; i++)
             rhymers[LAST_INDEX].countIn(rn.nextInt(MAX_RANGE));
 
+        // TODO: needs refactoring - 'for' loop can be replaced with enhanced 'for'
         for (int i = 0; i < rhymers.length; i++) {
             while (!rhymers[i].callCheck())
                 System.out.print(rhymers[i].countOut() + "  ");

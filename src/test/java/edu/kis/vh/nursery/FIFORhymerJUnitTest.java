@@ -79,6 +79,7 @@ public class FIFORhymerJUnitTest {
             fifoRhymer.countOut();
         }
 
+        // TODO: needs refactoring - 'assertEquals()' can be simplified to 'assertTrue()'
         Assert.assertEquals(true, fifoRhymer.callCheck());
     }
 }
